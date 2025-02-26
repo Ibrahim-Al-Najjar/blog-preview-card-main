@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("../assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+  font-family: "Figtree", sans-serif;
+}
+
+body {
+  background-color: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px 20px 30px 20px;
+  width: 384px;
+  height: 522px;
+  box-shadow: 10px 10px 0;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.details {
+  margin-top: 24px;
+  height: 100%;
+  width: 100%;
+}
+.state {
+  background-color: #f4d04e;
+  border-radius: 10px;
+  padding: 15px;
+  width: 60px;
+  height: 7px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details h1 {
+  font-size: 27px;
+  color: #111111;
+  transition: 0.2s ease;
+}
+
+.publish-info {
+  color: #111111;
+  font-weight: 450;
+}
+
+.description {
+  color: #6b6b6b;
+  width: 90%;
+  line-height: 150%;
+}
+
+.Author {
+  display: flex;
+  align-items: center;
+}
+
+.Author img {
+  width: 10%;
+}
+.Author p {
+  padding-left: 10px;
+  font-weight: bolder;
+}
+
+h1:hover {
+  color: #f4d04e;
+  transition: 0.2s ease;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .card {
+    width: 327px;
+    height: 507px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .card {
+    width: 300px;
+    height: 500px;
+  }
+}
